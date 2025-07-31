@@ -10,7 +10,7 @@ permissions:
   issues: write
 
 env:
-  STEP_3_FILE: ".github/steps/4-step.md"
+  STEP_4_FILE: ".github/steps/4-step.md"
 
 jobs:
   check_keywords:
@@ -89,7 +89,7 @@ jobs:
         with:
           repository: ${{ env.ISSUE_REPOSITORY }}
           issue-number: ${{ env.ISSUE_NUMBER }}
-          file: ${{ env.STEP_3_FILE }}
+          file: ${{ env.STEP_4_FILE }}
 
       - name: Create comment - watching for progress
         uses: GrantBirki/comment@v2.1.1
@@ -100,7 +100,7 @@ jobs:
 
       - name: Disable current workflow and enable next one
         run: |
-          gh workflow disable "Step 3"
+          gh workflow disable "${{ github.workflow }}"
           gh workflow enable "Step 4"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
