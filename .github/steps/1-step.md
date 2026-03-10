@@ -25,6 +25,8 @@ Here are some of the options the default configuration provides:
 
 - **Query suites:** A list of the available suites of patterns that will be used. The **Default** or **Extended** are provided automatically.
 
+- **Runner type:** The default setup runs scans on the **Standard GitHub runner**.
+
 - **Events:** Triggers for running a CodeQL scan. It's common to run before merging and on a schedule for production code.
 
 ### ⌨️ Activity: Enable code scanning with CodeQL
