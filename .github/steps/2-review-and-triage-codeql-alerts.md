@@ -39,7 +39,7 @@ This screen will contain all the vulnerabilities identified by CodeQL inside thi
 
 ### :keyboard: Activity 3: Review an Alert
 
-In this activity, we will explore the alert UI. We'll review the data flow of the vulnerability, indentify what part of the code the alert impacts, and get more information about the alert.
+In this activity, we will explore the alert UI. We'll review the data flow of the vulnerability, identify what part of the code the alert impacts, and get more information about the alert.
 
 **Alert status:** This section displays the current alert status (open or closed), identifies the branch where the scan detected the alert, and shows the timestamp of the alert.
   
@@ -62,7 +62,7 @@ In this activity, we will explore the alert UI. We'll review the data flow of th
 **Alert triage:** Use the buttons at the top right of the alert to triage or create a new issue for the alert. Don't do anything yet. We'll get into these buttons in a moment. 😄
 
 **Additional info:** Finally, the right-side panel contains information such as tags, CWE information, and the severity of the alert
-  ![additional-information.png](/images/additiona-information.png)
+  ![additional-information.png](/images/additional-information.png)
 
 
 ### :keyboard: Activity 4: Dismiss an Alert
