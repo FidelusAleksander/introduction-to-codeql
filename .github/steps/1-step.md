@@ -17,13 +17,16 @@ Typically CodeQL [queries](https://codeql.github.com/docs/writing-codeql-queries
 
 In many cases, taking advantage of CodeQL is as simple as accepting the default suite, but you can also select the extended suite or customize your own with [GitHub Actions]().
 
-<img width="200" align="right" alt="codeql default configuration box" src="../images/codeql-default-configuration-box.png"/>
+<img width="250" align="right" alt="codeql default configuration box" src="../images/codeql-default-configuration-box.png"/>
 
 Here are some of the options the default configuration provides:
 
 - **Languages:** Supported languages will automatically be detected in your repository and scanning will be enabled.
 
 - **Query suites:** A list of the available suites of patterns that will be used. The **Default** or **Extended** are provided automatically.
+
+- **Runner type:** Type of GitHub Actions runner that will run the CodeQL analysis. This defaults to Standard GitHub Hosted Runners but can be customized to use [self-hosted runners](https://docs.github.com/en/enterprise-cloud@latest/code-security/how-tos/secure-at-scale/configure-enterprise-security/configure-specific-tools/configuring-code-scanning-for-your-appliance).
+
 
 - **Events:** Triggers for running a CodeQL scan. It's common to run before merging and on a schedule for production code.
 
