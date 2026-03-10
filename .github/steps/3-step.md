@@ -52,6 +52,9 @@ The **Common Weakness Enumeration (CWE)** is a category system for hardware and 
 
    <img width="600" alt="alert overview" src="../images/alert-overview.png" />
 
+   > [!TIP]
+   > If you don't see a **Create issue** button on the alert page, that's okay. Some accounts may show different actions (for example, **Generate fix**). If you need to create an issue, open the **Issues** tab, select **New issue**, add a title/description, and create it there.
+
 1. Notice the audit trail provides the source of the vulnerability and shows that it came from our pull request.
 
 ### ⌨️ Activity: Dismiss and Reopen an Alert
